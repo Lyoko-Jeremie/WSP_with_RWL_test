@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1405537490 source:h:\c++\c++\wsp_with_rwl_test\chararray.cpp
+	"CharArray.h"
+	<string>
+
+1405235286 h:\c++\c++\wsp_with_rwl_test\chararray.h
+	<cstddef>
+	<string>
+	<iostream>
+
+1405699216 source:h:\c++\c++\wsp_with_rwl_test\main.cpp
+	<iostream>
+	<thread>
+	<mutex>
+	<deque>
+	<vector>
+	<string>
+	<sstream>
+	"WinSocketPack.h"
+
+1405689546 h:\c++\c++\wsp_with_rwl_test\winsocketpack.h
+	<Winsock2.h>
+	<stdexcept>
+	<mutex>
+	<atomic>
+	"CharArray.h"
+	"RWLock.h"
+	<deque>
+	<string>
+
+1405698564 h:\c++\c++\wsp_with_rwl_test\rwlock.h
+	<thread>
+	<chrono>
+	<mutex>
+	<atomic>
+
+1405698477 source:h:\c++\c++\wsp_with_rwl_test\winsocketpack.cpp
+	"WinSocketPack.h"
+	"CharArray.h"
+	"RWLock.h"
+	<iostream>
+	<stdexcept>
+	<vector>
+	<string>
+	<sstream>
+
